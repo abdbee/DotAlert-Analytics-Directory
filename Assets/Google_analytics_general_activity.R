@@ -19,13 +19,13 @@ General_activity <- read_csv("~/Desktop/DotAlert/Google Analytics/General_activi
 View(General_activity)    
 
 #active user trend
-Active_user_trend <- ggplot(data = General_activity) + geom_line(mapping = aes(Nth_day, Active_user_trend_30_Days, color = "Active_user_trend_30_Days")) + geom_line(mapping = aes(Nth_day, Active_user_trend_7_Days, color = "Active_user_trend_7_Days")) + geom_line(mapping = aes(Nth_day, Active_user_trend_1_Day, color = "Active_user_trend_1_Day")) + theme_bw()
+Active_user_trend <- ggplot(data = General_activity) + geom_line(mapping = aes(Nth_day, Active_user_trend_30_Days, color = "Active_user_trend_30_Days")) + geom_line(mapping = aes(Nth_day, Active_user_trend_7_Days, color = "Active_user_trend_7_Days")) + geom_line(mapping = aes(Nth_day, Active_user_trend_1_Day, color = "Active_user_trend_1_Day")) + facet_wrap(~ Month, nrow = 2) + theme_bw()
 
 #average engagement time
-Average_engagement_time = ggplot(data = General_activity) + geom_line(mapping = aes(Nth_day, Average_engagement_time))
+Average_engagement_time = ggplot(data = General_activity) + geom_line(mapping = aes(Nth_day, Average_engagement_time)) + facet_wrap(~ Month, nrow = 2) + theme_bw()
 
 # number of New users for each day of the month
-NewUsers <- ggplot (data = General_activity) + geom_line(mapping = aes(Nth_day, New_users))
+NewUsers <- ggplot (data = General_activity) + geom_line(mapping = aes(Nth_day, New_users)) + facet_wrap(~ Month, nrow = 2) + theme_bw()
 
 
 
