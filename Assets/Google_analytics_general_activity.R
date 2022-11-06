@@ -14,13 +14,8 @@ library(tidyverse)
 # daily and new monthly users (aggregate).
 
 #import csv file for general activity
-General_activity <- read_csv("~/Desktop/DotAlert/Google Analytics/General_activity.csv", 
-                             +     col_types = cols(Year = col_number(), 
-                                                    +         Nth_day = col_number(), Daily_Users = col_number(), 
-                                                    +         New_users = col_number(), Average_engagement_time = col_number(), 
-                                                    +         Active_user_trend_30_Days = col_number(), 
-                                                    +         Active_user_trend_7_Days = col_number(), 
-                                                    +         Active_user_trend_1_Day = col_number()))
+General_activity <- read_csv("~/Desktop/DotAlert/Google Analytics/General_activity.csv",col_types = cols(Year = col_number(), Nth_day = col_number(), Daily_Users = col_number(), New_users = col_number(), Average_engagement_time = col_number(), Active_user_trend_30_Days = col_number(), Active_user_trend_7_Days = col_number(), Active_user_trend_1_Day = col_number()))
+       
 View(General_activity)    
 
 #active user trend
