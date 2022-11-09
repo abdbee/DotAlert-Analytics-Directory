@@ -27,7 +27,12 @@ Average_engagement_time = ggplot(data = General_activity) + geom_line(mapping = 
 # number of New users for each day of the month
 NewUsers <- ggplot (data = General_activity) + geom_line(mapping = aes(Nth_day, New_users)) + facet_wrap(~ Month, nrow = 2) + theme_bw()
 
+#overall average time
+mean(General_activity$Average_engagement_time)
 
+# average engagement time for each month
+octeng <- General_activity %>% filter(Month == "October")
+mean(octeng$Average_engagement_time)
 
 
 
