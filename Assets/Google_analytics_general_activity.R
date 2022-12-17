@@ -24,6 +24,13 @@ Active_user_trend <- ggplot(data = General_activity) + geom_line(mapping = aes(N
 #average engagement time
 Average_engagement_time = ggplot(data = General_activity) + geom_line(mapping = aes(Nth_day, Average_engagement_time)) + facet_wrap(~ Month, nrow = 2) + theme_bw()
 
+# number of total users for each month
+MonthlyUsers <- General_activity %>% filter(Month == "December")
+View(MonthlyUsers)
+MonthlyTotalUsersCount <- sum(MonthlyUsers$Daily_Users)
+MonthlyNewUsersCount <- sum(MonthlyUsers$New_users)
+
+
 # number of New users for each day of the month
 NewUsers <- ggplot (data = General_activity) + geom_line(mapping = aes(Nth_day, New_users)) + facet_wrap(~ Month, nrow = 2) + theme_bw()
 
@@ -31,8 +38,8 @@ NewUsers <- ggplot (data = General_activity) + geom_line(mapping = aes(Nth_day, 
 mean(General_activity$Average_engagement_time)
 
 # average engagement time for each month
-octeng <- General_activity %>% filter(Month == "October")
-mean(octeng$Average_engagement_time)
+Noveng <- General_activity %>% filter(Month == "September")
+mean(Noveng$Average_engagement_time)
 
 
 

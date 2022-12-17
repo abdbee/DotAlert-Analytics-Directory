@@ -32,6 +32,7 @@ New_user_traffic <- ggplot(data = Where_new_users_come_from) + geom_col(mapping 
 
 # total number of users from each country
 total_user_per_country <- User_countries %>% group_by(Country) %>% summarize (sum(Users))
+View(total_user_per_country)
 
 #comparison of monthly events
 monthly_events_comparison <- Events %>% filter(Event_name %in% c("first_visit", "page_view", "user_engagement")) %>% ggplot(aes(x = Event_name, y = Event_count, group = Event_name, color = Event_name, fill = Event_name)) + geom_col() + facet_wrap(~ Month, nrow = 2) + theme_bw()
