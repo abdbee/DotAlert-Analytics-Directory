@@ -1,0 +1,320 @@
+# ----------------------------------------
+# Report CSV Export
+# Account: Dot.alert()
+# Property: Visitors and views
+# ----------------------------------------
+#  
+# Start date: 20221101
+# End date: 20221130
+Nth day,Users
+0000,2
+0001,3
+0002,2
+0003,4
+0004,5
+0005,7
+0006,3
+0007,1
+0008,1
+0009,3
+0010,1
+0011,5
+0012,9
+0013,6
+0014,8
+0015,3
+0016,7
+0017,1
+0018,7
+0019,10
+0020,8
+0021,9
+0022,6
+0023,3
+0024,5
+0025,10
+0026,5
+0027,15
+0028,10
+0029,6
+
+# Start date: 20221101
+# End date: 20221130
+Nth day,New users
+0000,2
+0001,1
+0002,2
+0003,1
+0004,3
+0005,3
+0006,2
+0007,0
+0008,0
+0009,2
+0010,1
+0011,3
+0012,7
+0013,4
+0014,8
+0015,2
+0016,6
+0017,0
+0018,4
+0019,7
+0020,5
+0021,5
+0022,3
+0023,1
+0024,2
+0025,4
+0026,1
+0027,9
+0028,5
+0029,1
+
+# Start date: 20221101
+# End date: 20221130
+Nth day,Average engagement time
+0000,23.5
+0001,88.33333333333333
+0002,66.5
+0003,93.75
+0004,34.8
+0005,85.71428571428571
+0006,89
+0007,0
+0008,448
+0009,0
+0010,10
+0011,55.8
+0012,75.22222222222223
+0013,28.333333333333332
+0014,21.375
+0015,13
+0016,44.142857142857146
+0017,0
+0018,19.285714285714285
+0019,85.2
+0020,33
+0021,236.66666666666666
+0022,166.83333333333334
+0023,2
+0024,287.2
+0025,138.2
+0026,31.6
+0027,89.86666666666666
+0028,91.7
+0029,25.166666666666668
+
+# Start date: 20221101
+# End date: 20221130
+Nth day,Total revenue
+
+
+#  
+
+
+#  
+
+
+# Where do your new users come from?
+# Start date: 20221101
+# End date: 20221130
+First user default channel group,New users
+Direct,55
+Organic Social,31
+Organic Search,7
+Referral,1
+
+#  
+# Start date: 20221101
+# End date: 20221130
+Session default channel group,Sessions
+Organic Social,119
+Direct,84
+Organic Search,26
+Referral,1
+Unassigned,1
+
+#  
+# Start date: 20221101
+# End date: 20221130
+Country ID,Users
+AU,3
+BG,4
+BR,3
+CA,5
+CO,1
+DE,4
+DO,1
+EG,1
+ES,2
+FR,3
+GB,10
+GR,1
+IE,1
+IN,6
+IT,1
+JP,1
+KR,1
+MX,2
+NG,22
+NL,1
+NZ,1
+PE,1
+PK,1
+PL,3
+PR,1
+RO,1
+RU,1
+TR,1
+US,25
+
+# Start date: 20221101
+# End date: 20221130
+Country,Users
+United States,25
+Nigeria,22
+United Kingdom,10
+India,6
+Canada,5
+Bulgaria,4
+Germany,4
+Australia,3
+Brazil,3
+France,3
+Poland,3
+Mexico,2
+Spain,2
+Colombia,1
+Dominican Republic,1
+Egypt,1
+Greece,1
+Ireland,1
+Italy,1
+Japan,1
+Netherlands,1
+New Zealand,1
+Pakistan,1
+Peru,1
+Puerto Rico,1
+Romania,1
+Russia,1
+South Korea,1
+Turkey,1
+
+# How are active users trending?
+# Start date: 20221101
+# End date: 20221130
+Nth day,30 days,7 days,1 day
+0000,130,55,2
+0001,129,54,3
+0002,115,50,2
+0003,111,19,4
+0004,114,18,5
+0005,118,19,7
+0006,120,18,3
+0007,112,16,1
+0008,107,15,1
+0009,108,16,3
+0010,106,16,1
+0011,108,16,5
+0012,109,18,9
+0013,111,20,6
+0014,113,28,8
+0015,112,30,3
+0016,117,34,7
+0017,112,33,1
+0018,117,35,7
+0019,121,36,10
+0020,125,37,8
+0021,126,36,9
+0022,129,37,6
+0023,129,33,3
+0024,130,37,5
+0025,131,38,10
+0026,102,31,5
+0027,107,35,15
+0028,108,37,10
+0029,106,35,6
+
+# How well do you retain your users?
+# Start date: 20221016
+# End date: 20221126
+Date,Week 0,Week 1,Week 2,Week 3,Week 4,Week 5
+16 Oct - 22 Oct,17,0,0,0,0,0
+23 Oct - 29 Oct,44,1,1,2,4,-1
+30 Oct - 5 Nov,15,0,0,0,-1,-1
+6 Nov - 12 Nov,11,0,0,-1,-1,-1
+13 Nov - 19 Nov,31,2,-1,-1,-1,-1
+20 Nov - 26 Nov,27,-1,-1,-1,-1,-1
+
+#  
+# Start date: 20221101
+# End date: 20221130
+Page title and screen class,Views
+Welcome! - Dot.alert(),154
+Jobs - Dot.alert(),44
+3.Operations - Dot.alert(),34
+1.Acquisition - Dot.alert(),33
+Social channels - Dot.alert(),30
+2.Storage - Dot.alert(),29
+Crowdloans - Dot.alert(),25
+Monthly quizzes - Dot.alert(),24
+Our contributors - Dot.alert(),22
+Our mission - Dot.alert(),21
+Our platform - Dot.alert(),21
+Our team members - Dot.alert(),20
+Crowdfunding - Dot.alert(),19
+Participation - Dot.alert(),18
+Treasury spends - Dot.alert(),18
+4.Social support - Dot.alert(),17
+Democracy delegation - Dot.alert(),17
+5.Regulations - Dot.alert(),16
+Existential deposits - Dot.alert(),16
+Voting - Dot.alert(),16
+Mobile wallets - Dot.alert(),15
+Direct democracy - Dot.alert(),14
+Infrastructure - Dot.alert(),13
+Bidding - Dot.alert(),12
+Address formats - Dot.alert(),11
+Docs - Dot.alert(),11
+Kappa Sigma Mu (KÎ£M) membership - Dot.alert(),10
+Networks - Dot.alert(),10
+GitHub - Dot.alert(),9
+Parachain slot lease - Dot.alert(),9
+Transaction explorers - Dot.alert(),9
+Seed/Secret phrases - Dot.alert(),6
+Browser extensions - Dot.alert(),5
+User surveys - Dot.alert(),5
+Cookie policy - Dot.alert(),4
+JSON backups - Dot.alert(),3
+Open Source license - Dot.alert(),2
+Untitled - Dot.alert(),2
+
+#  
+# Start date: 20221101
+# End date: 20221130
+Event name,Event count
+page_view,744
+session_start,230
+scroll,134
+first_visit,94
+user_engagement,63
+
+# What are your top conversions?
+# Start date: 20221101
+# End date: 20221130
+Event name,Conversions
+
+
+#  
+# Start date: 20221101
+# End date: 20221130
+Item name,E-commerce purchases
+
+
+# How does activity on your platforms compare?
+# Start date: 20221101
+# End date: 20221130
+Platform,Conversions
