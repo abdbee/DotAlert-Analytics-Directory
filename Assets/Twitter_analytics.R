@@ -33,5 +33,6 @@ Average_engagement <- mean(Individual_tweets$engagements)
 Average_impressions <- mean(Individual_tweets$impressions)
 
 #individual month average impressions
-Monthly_imp <- Individual_tweets %>% filter(Month == "October")
+Monthly_imp <- Individual_tweets %>% filter(Month == "December")
+avg_monthly_imp <- mean(Monthly_imp$impressions)
 
