@@ -27,7 +27,14 @@ Reddit_aggregate_by_category <- Reddit_aggregate_by_category %>% mutate(view_pos
 View(Reddit_aggregate_by_category)
 
 
+#views vs upvotes faceted by months
+View_upvotes_month <- ggplot(data = Q4_2022_dotalert_reddit_data_Sheet1) + geom_point(mapping = aes(View, Upvote, color = Comment)) + facet_wrap(~ Month, nrow = 2) + theme_bw() 
 
-ggplot(data = Reddit_aggregate_by_year) + geom_col(mapping = aes(Month, Total_views, fill = Month)) + geom_col(mapping = aes(Month, view_postNumber_ratio, fill = Month)) + theme_bw()
+#views vs upvotes faceted by subreddit
+View_upvotes_subreddit <- ggplot(data = Q4_2022_dotalert_reddit_data_Sheet1) + geom_point(mapping = aes(View, Upvote, color = Comment)) + facet_wrap(~ Subreddit, nrow = 2) + theme_bw() 
 
+# general views vs upvotes
+View_upvotes <- ggplot(data = Q4_2022_dotalert_reddit_data_Sheet1) + geom_point(mapping = aes(View, Upvote, color = Comment)) + theme_bw() 
 
+# general views vs comments
+View_comments <- ggplot(data = Q4_2022_dotalert_reddit_data_Sheet1) + geom_point(mapping = aes(View, Comment, color = Upvote)) + theme_bw() 

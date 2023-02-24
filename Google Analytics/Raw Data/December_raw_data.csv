@@ -22,6 +22,23 @@ Nth day,Users,,,,,
 0012,7,,,,,
 0013,3,,,,,
 0014,0,,,,,
+0000,5
+0001,12
+0002,8
+0003,6
+0004,7
+0005,3
+0006,2
+0007,2
+0008,2
+0009,1
+0010,36
+0011,6
+0012,5
+0013,3
+0014,2
+0015,0
+
 # Start date: 20221201
 # End date: 20221215
 Nth day,New users,,,,,
@@ -40,6 +57,23 @@ Nth day,New users,,,,,
 0012,5,,,,,
 0013,1,,,,,
 0014,0,,,,,
+0000,4
+0001,8
+0002,5
+0003,5
+0004,5
+0005,1
+0006,1
+0007,1
+0008,0
+0009,0
+0010,32
+0011,4
+0012,3
+0013,3
+0014,0
+0015,0
+
 # Start date: 20221201
 # End date: 20221215
 Nth day,Average engagement time,,,,,
@@ -58,6 +92,23 @@ Nth day,Average engagement time,,,,,
 0012,64.71428571428571,,,,,
 0013,50,,,,,
 0014,0,,,,,
+0000,15.2
+0001,41.666666666666664
+0002,90.25
+0003,60.5
+0004,5
+0005,142
+0006,305
+0007,65
+0008,177
+0009,0
+0010,81.91666666666667
+0011,37.5
+0012,7
+0013,1035.6666666666667
+0014,141
+0015,0
+
 # Start date: 20221201
 # End date: 20221215
 Nth day,Total revenue,,,,,
@@ -67,29 +118,30 @@ Nth day,Total revenue,,,,,
 # Start date: 20221201
 # End date: 20221215
 First user default channel group,New users,,,,,
-Direct,31,,,,,
-Organic Social,17,,,,,
-Referral,3,,,,,
-Organic Search,1,,,,,
+Direct,81,,,,,
+Organic Social,32,,,,,
+Referral,6,,,,,
+Organic Search,5,,,,,
 #  
 # Start date: 20221201
 # End date: 20221215
 Session default channel group,Sessions,,,,,
-Direct,46,,,,,
-Organic Social,44,,,,,
-Organic Search,9,,,,,
-Referral,3,,,,,
+Direct,102,,,,,
+Organic Social,93,,,,,
+Organic Search,35,,,,,
+Referral,10,,,,,
 #  
 # Start date: 20221201
 # End date: 20221215
 Country ID,Users,,,,,
+BS,14
 AE,1,,,,,
-AU,5,,,,,
-BE,1,,,,,
-CA,2,,,,,
+AU,6,,,,,
+BE,2,,,,,
+CA,3,,,,,
 CH,1,,,,,
 CY,1,,,,,
-DE,3,,,,,
+DE,6,,,,,
 ES,1,,,,,
 FR,1,,,,,
 GB,3,,,,,
@@ -99,26 +151,28 @@ IL,1,,,,,
 IN,1,,,,,
 IT,1,,,,,
 KR,2,,,,,
-NG,16,,,,,
-NL,6,,,,,
+NG,32,,,,,
+NL,8,,,,,
 NP,1,,,,,
 PL,2,,,,,
 RS,1,,,,,
 SE,1,,,,,
 SG,2,,,,,
 TH,1,,,,,
-US,4,,,,,
+US,28,,,,,
 VN,1,,,,,
+EE,1
 # Start date: 20221201
 # End date: 20221215
 Country,Users,,,,,
-Nigeria,16,,,,,
-Netherlands,6,,,,,
+Nigeria,32,,,,,
+Netherlands,8,,,,,
 Australia,5,,,,,
-United States,4,,,,,
-Germany,3,,,,,
+United States,28,,,,,
+Germany,6,,,,,
 United Kingdom,3,,,,,
 Canada,2,,,,,
+Bahamas,14
 Poland,2,,,,,
 Singapore,2,,,,,
 South Korea,2,,,,,
@@ -157,6 +211,23 @@ Nth day,30 days,7 days,1 day,,,
 0012,130,36,7,,,
 0013,127,31,3,,,
 0014,119,25,0,,,
+0000,124,31,5
+0001,127,34,12
+0002,132,39,8
+0003,133,36,6
+0004,131,36,7
+0005,126,36,3
+0006,123,34,2
+0007,121,31,2
+0008,119,22,2
+0009,118,17,1
+0010,146,45,36
+0011,149,44,6
+0012,145,48,5
+0013,140,49,3
+0014,138,49,2
+0015,136,48,0
+
 # How well do you retain your users?
 # Start date: 20221030
 # End date: 20221210
@@ -167,11 +238,17 @@ Date,Week 0,Week 1,Week 2,Week 3,Week 4,Week 5
 20 Nov - 26 Nov,27,5,1,-1,-1,
 27 Nov - 3 Dec,21,0,-1,-1,-1,
 4 Dec - 10 Dec,33,-1,-1,-1,-1,
+18 Dec - 24 Dec,18,1,1,1,3,1
+25 Dec - 31 Dec,42,0,1,0,2,-1
+1 Jan - 7 Jan,7,1,1,1,-1,-1
+8 Jan - 14 Jan,16,1,0,-1,-1,-1
+15 Jan - 21 Jan,14,1,-1,-1,-1,-1
+22 Jan - 28 Jan,23,-1,-1,-1,-1,-1
 #  
 # Start date: 20221201
 # End date: 20221215
 Page title and screen class,Views,,,,,
-Welcome! - Dot.alert(),45,,,,,
+Welcome! - Dot.alert(),118,,,,,
 Privacy - Dot.alert(),18,,,,,
 Wallets - Dot.alert(),18,,,,,
 1.Acquisition - Dot.alert(),16,,,,,
