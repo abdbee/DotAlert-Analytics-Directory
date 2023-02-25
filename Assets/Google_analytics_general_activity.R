@@ -19,13 +19,14 @@ General_activity <- read_csv("~/Desktop/DotAlert/Google Analytics/General_activi
 View(General_activity)    
 
 #active user trend
+
 Active_user_trend <- ggplot(data = General_activity) + geom_line(mapping = aes(Nth_day, Active_user_trend_30_Days, color = "Active_user_trend_30_Days")) + geom_line(mapping = aes(Nth_day, Active_user_trend_7_Days, color = "Active_user_trend_7_Days")) + geom_line(mapping = aes(Nth_day, Active_user_trend_1_Day, color = "Active_user_trend_1_Day")) + facet_wrap(~ Month, nrow = 2) + theme_bw()
 
 #average engagement time
 Average_engagement_time = ggplot(data = General_activity) + geom_line(mapping = aes(Nth_day, Average_engagement_time)) + facet_wrap(~ Month, nrow = 2) + theme_bw()
 
 # number of total users for each month
-MonthlyUsers <- General_activity %>% filter(Month == "December")
+MonthlyUsers <- General_activity %>% filter(Month == "January")
 View(MonthlyUsers)
 MonthlyTotalUsersCount <- sum(MonthlyUsers$Daily_Users)
 MonthlyNewUsersCount <- sum(MonthlyUsers$New_users)
@@ -41,5 +42,6 @@ mean(General_activity$Average_engagement_time)
 Noveng <- General_activity %>% filter(Month == "September")
 mean(Noveng$Average_engagement_time)
 
+# total page views by month
 
 
