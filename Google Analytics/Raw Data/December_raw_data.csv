@@ -22,23 +22,22 @@ Nth day,Users,,,,,
 0012,7,,,,,
 0013,3,,,,,
 0014,0,,,,,
-0000,5
-0001,12
-0002,8
-0003,6
-0004,7
-0005,3
-0006,2
-0007,2
-0008,2
-0009,1
-0010,36
-0011,6
-0012,5
-0013,3
-0014,2
-0015,0
-
+0015,5,,,,,
+0016,12,,,,,
+0017,8,,,,,
+0018,6,,,,,
+0019,7,,,,,
+0020,3,,,,,
+0021,2,,,,,
+0022,2,,,,,
+0023,2,,,,,
+0024,1,,,,,
+0025,36,,,,,
+0026,6,,,,,
+0027,5,,,,,
+0028,3,,,,,
+0029,2,,,,,
+0030,0,,,,,
 # Start date: 20221201
 # End date: 20221215
 Nth day,New users,,,,,
@@ -57,23 +56,22 @@ Nth day,New users,,,,,
 0012,5,,,,,
 0013,1,,,,,
 0014,0,,,,,
-0000,4
-0001,8
-0002,5
-0003,5
-0004,5
-0005,1
-0006,1
-0007,1
-0008,0
-0009,0
-0010,32
-0011,4
-0012,3
-0013,3
-0014,0
-0015,0
-
+0015,4,,,,,
+0016,8,,,,,
+0017,5,,,,,
+0018,5,,,,,
+0019,5,,,,,
+0020,1,,,,,
+0021,1,,,,,
+0022,1,,,,,
+0023,0,,,,,
+0024,0,,,,,
+0025,32,,,,,
+0026,4,,,,,
+0027,3,,,,,
+0028,3,,,,,
+0029,0,,,,,
+0030,0,,,,,
 # Start date: 20221201
 # End date: 20221215
 Nth day,Average engagement time,,,,,
@@ -92,23 +90,22 @@ Nth day,Average engagement time,,,,,
 0012,64.71428571428571,,,,,
 0013,50,,,,,
 0014,0,,,,,
-0000,15.2
-0001,41.666666666666664
-0002,90.25
-0003,60.5
-0004,5
-0005,142
-0006,305
-0007,65
-0008,177
-0009,0
-0010,81.91666666666667
-0011,37.5
-0012,7
-0013,1035.6666666666667
-0014,141
-0015,0
-
+0015,15.2,,,,,
+0016,41.666666666666664,,,,,
+0017,90.25,,,,,
+0018,60.5,,,,,
+0019,5,,,,,
+0020,142,,,,,
+0021,305,,,,,
+0022,65,,,,,
+0023,177,,,,,
+0024,0,,,,,
+0025,81.91666666666667,,,,,
+0026,37.5,,,,,
+0027,7,,,,,
+0028,1035.6666666666667,,,,,
+0029,141,,,,,
+0030,0,,,,,
 # Start date: 20221201
 # End date: 20221215
 Nth day,Total revenue,,,,,
@@ -134,7 +131,7 @@ Referral,10,,,,,
 # Start date: 20221201
 # End date: 20221215
 Country ID,Users,,,,,
-BS,14
+BS,14,,,,,
 AE,1,,,,,
 AU,6,,,,,
 BE,2,,,,,
@@ -161,7 +158,7 @@ SG,2,,,,,
 TH,1,,,,,
 US,28,,,,,
 VN,1,,,,,
-EE,1
+EE,1,,,,,
 # Start date: 20221201
 # End date: 20221215
 Country,Users,,,,,
@@ -172,7 +169,7 @@ United States,28,,,,,
 Germany,6,,,,,
 United Kingdom,3,,,,,
 Canada,2,,,,,
-Bahamas,14
+Bahamas,14,,,,,
 Poland,2,,,,,
 Singapore,2,,,,,
 South Korea,2,,,,,
@@ -211,23 +208,22 @@ Nth day,30 days,7 days,1 day,,,
 0012,130,36,7,,,
 0013,127,31,3,,,
 0014,119,25,0,,,
-0000,124,31,5
-0001,127,34,12
-0002,132,39,8
-0003,133,36,6
-0004,131,36,7
-0005,126,36,3
-0006,123,34,2
-0007,121,31,2
-0008,119,22,2
-0009,118,17,1
-0010,146,45,36
-0011,149,44,6
-0012,145,48,5
-0013,140,49,3
-0014,138,49,2
-0015,136,48,0
-
+0015,124,31,5,,,
+0016,127,34,12,,,
+0017,132,39,8,,,
+0018,133,36,6,,,
+0019,131,36,7,,,
+0020,126,36,3,,,
+0021,123,34,2,,,
+0022,121,31,2,,,
+0023,119,22,2,,,
+0024,118,17,1,,,
+0025,146,45,36,,,
+0026,149,44,6,,,
+0027,145,48,5,,,
+0028,140,49,3,,,
+0029,138,49,2,,,
+0030,136,48,0,,,
 # How well do you retain your users?
 # Start date: 20221030
 # End date: 20221210
@@ -250,59 +246,62 @@ Date,Week 0,Week 1,Week 2,Week 3,Week 4,Week 5
 Page title and screen class,Views,,,,,
 Welcome! - Dot.alert(),118,,,,,
 Privacy - Dot.alert(),18,,,,,
-Wallets - Dot.alert(),18,,,,,
-1.Acquisition - Dot.alert(),16,,,,,
-Jobs - Dot.alert(),15,,,,,
-5.Regulations - Dot.alert(),14,,,,,
-Nominating - Dot.alert(),11,,,,,
-Crowdfunding - Dot.alert(),10,,,,,
-2.Storage - Dot.alert(),9,,,,,
-3.Operations - Dot.alert(),8,,,,,
-Our mission - Dot.alert(),8,,,,,
-4.Social support - Dot.alert(),7,,,,,
-Existential deposits - Dot.alert(),7,,,,,
+Wallets - Dot.alert(),26,,,,,
+1.Acquisition - Dot.alert(),40,,,,,
+Air-gapped signers - Dot.alert(),24,,,,,
+Jobs - Dot.alert(),41,,,,,
+Pairs availability - Dot.alert(),13,,,,,
+5.Regulations - Dot.alert(),22,,,,,
+Nominating - Dot.alert(),22,,,,,
+Crowdfunding - Dot.alert(),21,,,,,
+2.Storage - Dot.alert(),18,,,,,
+3.Operations - Dot.alert(),23,,,,,
+Our mission - Dot.alert(),14,,,,,
+4.Social support - Dot.alert(),18,,,,,
+Existential deposits - Dot.alert(),18,,,,,
 Networks - Dot.alert(),7,,,,,
-Our contributors - Dot.alert(),7,,,,,
-Social channels - Dot.alert(),7,,,,,
-Mobile wallets - Dot.alert(),6,,,,,
+Our contributors - Dot.alert(),16,,,,,
+Social channels - Dot.alert(),12,,,,,
+Mobile wallets - Dot.alert(),13,,,,,
 Our platform - Dot.alert(),6,,,,,
-Treasury spends - Dot.alert(),6,,,,,
-Address formats - Dot.alert(),5,,,,,
-Our team members - Dot.alert(),5,,,,,
-Seed/Secret phrases - Dot.alert(),5,,,,,
-Staking - Dot.alert(),5,,,,,
-Explorers - Dot.alert(),4,,,,,
+Treasury spends - Dot.alert(),11,,,,,
+Address formats - Dot.alert(),9,,,,,
+Our team members - Dot.alert(),9,,,,,
+Seed/Secret phrases - Dot.alert(),10,,,,,
+Staking - Dot.alert(),11,,,,,
+Explorers - Dot.alert(),9,,,,,
 Misc - Dot.alert(),4,,,,,
-Transaction explorers - Dot.alert(),4,,,,,
-Voting - Dot.alert(),4,,,,,
-Bidding - Dot.alert(),3,,,,,
-Crowdloans - Dot.alert(),3,,,,,
-Direct democracy - Dot.alert(),3,,,,,
-Docs - Dot.alert(),3,,,,,
-Governance - Dot.alert(),3,,,,,
-Kappa Sigma Mu (KÎ£M) membership - Dot.alert(),3,,,,,
-Monthly quizzes - Dot.alert(),3,,,,,
-Parachain slot lease - Dot.alert(),3,,,,,
-Browser extensions - Dot.alert(),2,,,,,
+Transaction explorers - Dot.alert(),10,,,,,
+Voting - Dot.alert(),10,,,,,
+Bidding - Dot.alert(),8,,,,,
+Crowdloans - Dot.alert(),7,,,,,
+Direct democracy - Dot.alert(),7,,,,,
+Docs - Dot.alert(),7,,,,,
+Governance - Dot.alert(),7,,,,,
+Kappa Sigma Mu (KÎ£M) membership - Dot.alert(),8,,,,,
+Monthly quizzes - Dot.alert(),14,,,,,
+Parachain slot lease - Dot.alert(),7,,,,,
+Browser extensions - Dot.alert(),10,,,,,
 Cookie policy - Dot.alert(),2,,,,,
-Democracy delegation - Dot.alert(),2,,,,,
-Infrastructure - Dot.alert(),2,,,,,
-JSON backups - Dot.alert(),2,,,,,
+Democracy delegation - Dot.alert(),9,,,,,
+Infrastructure - Dot.alert(),5,,,,,
+JSON backups - Dot.alert(),5,,,,,
 Open Source license - Dot.alert(),2,,,,,
+Swapping - Dot.alert(),4,,,,,
 Participation - Dot.alert(),2,,,,,
-GitHub - Dot.alert(),1,,,,,
+GitHub - Dot.alert(),3,,,,,
 Page not found - Dot.alert(),1,,,,,
-User surveys - Dot.alert(),1,,,,,
+User surveys - Dot.alert(),8,,,,,
 #  
 # Start date: 20221201
 # End date: 20221215
 Event name,Event count,,,,,
-page_view,302,,,,,
-session_start,102,,,,,
-scroll,55,,,,,
-first_visit,52,,,,,
-user_engagement,21,,,,,
-click,2,,,,,
+page_view,687,,,,,
+session_start,240,,,,,
+scroll,115,,,,,
+first_visit,124,,,,,
+user_engagement,66,,,,,
+click,5,,,,,
 # What are your top conversions?
 # Start date: 20221201
 # End date: 20221215
