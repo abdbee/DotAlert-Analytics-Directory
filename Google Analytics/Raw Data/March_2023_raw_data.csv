@@ -1,0 +1,238 @@
+# ----------------------------------------
+# Report CSV Export
+# Account: Dot.alert()
+# Property: Visitors and views
+# ----------------------------------------
+#  
+# Start date: 20230301
+# End date: 20230315
+Nth day,Users,,,,,
+0000,9,,,,,
+0001,10,,,,,
+0002,13,,,,,
+0003,6,,,,,
+0004,3,,,,,
+0005,5,,,,,
+0006,10,,,,,
+0007,5,,,,,
+0008,5,,,,,
+0009,5,,,,,
+0010,2,,,,,
+0011,5,,,,,
+0012,4,,,,,
+0013,8,,,,,
+0014,5,,,,,
+# Start date: 20230301
+# End date: 20230315
+Nth day,New users,,,,,
+0000,3,,,,,
+0001,2,,,,,
+0002,9,,,,,
+0003,4,,,,,
+0004,2,,,,,
+0005,2,,,,,
+0006,7,,,,,
+0007,0,,,,,
+0008,4,,,,,
+0009,2,,,,,
+0010,1,,,,,
+0011,4,,,,,
+0012,1,,,,,
+0013,5,,,,,
+0014,3,,,,,
+# Start date: 20230301
+# End date: 20230315
+Nth day,Average engagement time,,,,,
+0000,78.88888888888889,,,,,
+0001,137.3,,,,,
+0002,64.92307692307692,,,,,
+0003,105.66666666666667,,,,,
+0004,6.666666666666667,,,,,
+0005,85.6,,,,,
+0006,77.8,,,,,
+0007,84,,,,,
+0008,25.4,,,,,
+0009,4.6,,,,,
+0010,29,,,,,
+0011,270.8,,,,,
+0012,44.75,,,,,
+0013,91.75,,,,,
+0014,260.6,,,,,
+# Start date: 20230301
+# End date: 20230315
+Nth day,Total revenue,,,,,
+# Where do your new users come from?
+# Start date: 20230301
+# End date: 20230315
+First user default channel group,New users,,,,,
+Direct,27,,,,,
+Organic Social,15,,,,,
+Organic Search,6,,,,,
+Referral,1,,,,,
+#  
+# Start date: 20230301
+# End date: 20230315
+Session default channel group,Sessions,,,,,
+Organic Social,72,,,,,
+Direct,62,,,,,
+Organic Search,16,,,,,
+Referral,7,,,,,
+#  
+# Start date: 20230301
+# End date: 20230315
+Country ID,Users,,,,,
+BE,1,,,,,
+BG,1,,,,,
+CA,2,,,,,
+EE,2,,,,,
+FR,2,,,,,
+HU,2,,,,,
+IE,1,,,,,
+IN,2,,,,,
+JP,1,,,,,
+KE,4,,,,,
+KR,1,,,,,
+ME,1,,,,,
+MT,1,,,,,
+NG,30,,,,,
+NL,1,,,,,
+NO,1,,,,,
+PL,1,,,,,
+RO,2,,,,,
+SD,1,,,,,
+TZ,2,,,,,
+UA,1,,,,,
+UG,1,,,,,
+US,7,,,,,
+VN,2,,,,,
+# Start date: 20230301
+# End date: 20230315
+Country,Users,,,,,
+Nigeria,30,,,,,
+United States,7,,,,,
+Kenya,4,,,,,
+Canada,2,,,,,
+Estonia,2,,,,,
+France,2,,,,,
+Hungary,2,,,,,
+India,2,,,,,
+Romania,2,,,,,
+Tanzania,2,,,,,
+Vietnam,2,,,,,
+Belgium,1,,,,,
+Bulgaria,1,,,,,
+Ireland,1,,,,,
+Japan,1,,,,,
+Malta,1,,,,,
+Montenegro,1,,,,,
+Netherlands,1,,,,,
+Norway,1,,,,,
+Poland,1,,,,,
+South Korea,1,,,,,
+Sudan,1,,,,,
+Uganda,1,,,,,
+Ukraine,1,,,,,
+# How are active users trending?
+# Start date: 20230301
+# End date: 20230315
+Nth day,30 days,7 days,1 day,,,
+0000,170,74,9,,,
+0001,169,69,10,,,
+0002,179,74,13,,,
+0003,183,75,6,,,
+0004,183,74,3,,,
+0005,184,49,5,,,
+0006,191,45,10,,,
+0007,191,39,5,,,
+0008,187,37,5,,,
+0009,186,27,5,,,
+0010,182,25,2,,,
+0011,185,28,5,,,
+0012,185,29,4,,,
+0013,189,32,8,,,
+0014,192,31,5,,,
+# How well do you retain your users?
+# Start date: 20230129
+# End date: 20230311
+Date,Week 0,Week 1,Week 2,Week 3,Week 4,Week 5
+29 Jan - 4 Feb,12,1,0,,,
+5 Feb - 11 Feb,14,0,0,,,
+12 Feb - 18 Feb,42,3,0,,,
+19 Feb - 25 Feb,40,5,1,,,
+26 Feb - 4 Mar,59,3,-1,,,
+5 Mar - 11 Mar,18,-1,-1,,,
+#  
+# Start date: 20230301
+# End date: 20230315
+Page title and screen class,Views,,,,,
+Welcome! - Dot.alert(),88,,,,,
+Licensing - Dot.alert(),42,,,,,
+1.Acquisition - Dot.alert(),35,,,,,
+Monthly Quizzes - Dot.alert(),25,,,,,
+Recovery setups - Dot.alert(),25,,,,,
+User Surveys - Dot.alert(),21,,,,,
+Discord - Dot.alert(),17,,,,,
+Existential Deposits - Dot.alert(),15,,,,,
+Jobs - Dot.alert(),15,,,,,
+Page not found - Dot.alert(),10,,,,,
+Wallets - Dot.alert(),10,,,,,
+3.Operations - Dot.alert(),9,,,,,
+Address Formats - Dot.alert(),9,,,,,
+2.Storage - Dot.alert(),8,,,,,
+Direct Democracy - Dot.alert(),6,,,,,
+Misc - Dot.alert(),6,,,,,
+Transaction Explorers - Dot.alert(),5,,,,,
+4.Support - Dot.alert(),4,,,,,
+Browser Extension Wallets - Dot.alert(),4,,,,,
+Docs - Dot.alert(),4,,,,,
+GitHub - Dot.alert(),4,,,,,
+Liquidation - Dot.alert(),4,,,,,
+Polkassembly - Dot.alert(),4,,,,,
+Services - Dot.alert(),4,,,,,
+Social Channels - Dot.alert(),4,,,,,
+Token swaps - Dot.alert(),4,,,,,
+Collateralisation - Dot.alert(),3,,,,,
+DAO Incubators - Dot.alert(),3,,,,,
+Seed/Secret Phrases - Dot.alert(),3,,,,,
+5.Regulations - Dot.alert(),2,,,,,
+Air-gapped Signers - Dot.alert(),2,,,,,
+Crowdfunding - Dot.alert(),2,,,,,
+Crowdfunding dapps - Dot.alert(),2,,,,,
+Democracy Delegation - Dot.alert(),2,,,,,
+Initial DEX Offerings - Dot.alert(),2,,,,,
+JSON Backups - Dot.alert(),2,,,,,
+Our Mission - Dot.alert(),2,,,,,
+Staking tools - Dot.alert(),2,,,,,
+Bidding - Dot.alert(),1,,,,,
+Borrowing - Dot.alert(),1,,,,,
+Explorers - Dot.alert(),1,,,,,
+Kappa Sigma Mu (KÎ£M) Membership - Dot.alert(),1,,,,,
+Mobile Wallets - Dot.alert(),1,,,,,
+Our Contributors - Dot.alert(),1,,,,,
+Our Team Members - Dot.alert(),1,,,,,
+Platforms - Dot.alert(),1,,,,,
+Portfolio Management - Dot.alert(),1,,,,,
+Privacy - Dot.alert(),1,,,,,
+Treasury Spends - Dot.alert(),1,,,,,
+Voting - Dot.alert(),1,,,,,
+#  
+# Start date: 20230301
+# End date: 20230315
+Event name,Event count,,,,,
+page_view,421,,,,,
+session_start,157,,,,,
+scroll,108,,,,,
+user_engagement,69,,,,,
+first_visit,49,,,,,
+# What are your top conversions?
+# Start date: 20230301
+# End date: 20230315
+Event name,Conversions,,,,,
+#  
+# Start date: 20230301
+# End date: 20230315
+Item name,Items purchased,,,,,
+# How does activity on your platforms compare?
+# Start date: 20230301
+# End date: 20230315
+Platform,Conversions,,,,,
