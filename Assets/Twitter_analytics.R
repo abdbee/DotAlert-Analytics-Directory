@@ -8,6 +8,7 @@ View(General_twitter_analytics)
 
 #import individual tweets data and mutate data to display day
 Individual_tweets <- read_csv("~/Desktop/DotAlert/Twitter_analytics/Individual_tweets.csv", col_types = cols(impressions = col_number(), engagements = col_number(), `engagement rate` = col_number())) %>% mutate(Day = weekdays(time), Month = format(as.POSIXct(time), "%B"))
+Individual_tweets <- Individual_tweets %>% mutate(Year =format(as.POSIXct(time), "%Y"), MonthYear = paste(Month, "-", Year))
 View(Individual_tweets) 
 
 
@@ -21,13 +22,13 @@ View(General_twitter_analytics_short)
 
 
 # relationship between engagements, impression and number of re-tweets
-engagements_rel <- ggplot(data = Individual_tweets) + geom_point(mapping = aes(impressions, engagements, color = retweets)) + facet_wrap(~ Month, nrow = 2) + theme_bw() 
+engagements_rel <- ggplot(data = Individual_tweets) + geom_point(mapping = aes(impressions, engagements, color = retweets)) + facet_wrap(~factor (MonthYear,levels = c('September - 2022','October - 2022','November - 2022','December - 2022','January - 2023','February - 2023','March - 2023')), nrow = 2) + theme_bw()
 
 # relationship between engagements, impressions and day of posting
 engagement_rel_day <- ggplot(data = Individual_tweets) + geom_point(mapping = aes(impressions, engagements, color = Day)) + facet_wrap(~ Month, nrow = 2) + theme_bw()
 
 # relationship between engagements, impression and number of re-tweets for one month
-engagements_rel <- Individual_tweets %>% filter(Month %in% c("December", "January")) %>% ggplot() + geom_point(mapping = aes(impressions, engagements, color = retweets)) + facet_wrap(~ Month, nrow = 2) + theme_bw()
+engagements_rel <- Individual_tweets %>% filter(MonthYear %in% c("February-2023", "March-2023")) %>% ggplot() + geom_point(mapping = aes(impressions, engagements, color = retweets)) + facet_wrap(~factor (MonthYear,levels = c('February - 2023','March - 2023')), nrow = 2) + theme_bw()
 
 # relationship between engagements, impressions and day of posting for one month
 engagement_rel_day <- Individual_tweets %>% filter(Month %in% c("December", "January")) %>% ggplot() + geom_point(mapping = aes(impressions, engagements, color = Day)) + facet_wrap(~ Month, nrow = 2) + theme_bw()
@@ -40,6 +41,6 @@ Average_engagement <- mean(Individual_tweets$engagements)
 Average_impressions <- mean(Individual_tweets$impressions)
 
 #individual month average impressions
-Monthly_imp <- Individual_tweets %>% filter(Month == "January")
+Monthly_imp <- Individual_tweets %>% filter(Month == "March")
 avg_monthly_imp <- mean(Monthly_imp$impressions)
 
