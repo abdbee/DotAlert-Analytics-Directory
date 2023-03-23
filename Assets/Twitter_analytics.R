@@ -25,13 +25,13 @@ View(General_twitter_analytics_short)
 engagements_rel <- ggplot(data = Individual_tweets) + geom_point(mapping = aes(impressions, engagements, color = retweets)) + facet_wrap(~factor (MonthYear,levels = c('September - 2022','October - 2022','November - 2022','December - 2022','January - 2023','February - 2023','March - 2023')), nrow = 2) + theme_bw()
 
 # relationship between engagements, impressions and day of posting
-engagement_rel_day <- ggplot(data = Individual_tweets) + geom_point(mapping = aes(impressions, engagements, color = Day)) + facet_wrap(~ Month, nrow = 2) + theme_bw()
+engagement_rel_day <- ggplot(data = Individual_tweets) + geom_point(mapping = aes(impressions, engagements, color = Day)) + facet_wrap(~factor (MonthYear,levels = c('September - 2022','October - 2022','November - 2022','December - 2022','January - 2023','February - 2023','March - 2023')), nrow = 2) + theme_bw()
 
 # relationship between engagements, impression and number of re-tweets for one month
-engagements_rel <- Individual_tweets %>% filter(MonthYear %in% c("February-2023", "March-2023")) %>% ggplot() + geom_point(mapping = aes(impressions, engagements, color = retweets)) + facet_wrap(~factor (MonthYear,levels = c('February - 2023','March - 2023')), nrow = 2) + theme_bw()
+engagements_rel_month <- Individual_tweets %>% filter(MonthYear %in% c("February - 2023", "March - 2023")) %>% ggplot() + geom_point(mapping = aes(impressions, engagements, color = retweets)) + facet_wrap(~factor (MonthYear,levels = c('February - 2023','March - 2023')), nrow = 2) + theme_bw()
 
 # relationship between engagements, impressions and day of posting for one month
-engagement_rel_day <- Individual_tweets %>% filter(Month %in% c("December", "January")) %>% ggplot() + geom_point(mapping = aes(impressions, engagements, color = Day)) + facet_wrap(~ Month, nrow = 2) + theme_bw()
+engagement_rel_day_month <- Individual_tweets %>% filter(MonthYear %in% c("February - 2023", "March - 2023")) %>% ggplot() + geom_point(mapping = aes(impressions, engagements, color = Day)) + facet_wrap(~factor (MonthYear,levels = c('February - 2023','March - 2023')), nrow = 2) + theme_bw()
 
 
 # average engagements
